@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay Integration</title>
+</head>
+<body>
+    <form action="submit">
+        <label for="name">Name</label>  <input type="text"id="name" placeholder="write your name" required>
+        <label for="email">Mail</label> <input type="email" placeholder="your mail" id="email" required>
+        <label for="amount">Enter the amount</label>  <input type="number" id="amount" required>
+        <button id="pay-button" type="button">Pay now</button>
+    </form>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="app.js">
+        document.getElementById("pay-button").onclick=
+    </script>
+</body>
+</html>
